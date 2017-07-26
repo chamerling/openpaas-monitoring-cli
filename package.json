@@ -1,0 +1,26 @@
+{
+  "name": "openpaas-monitoring-cli",
+  "version": "0.0.0",
+  "description": "Draw some OpenPaaS Monitoring stuff in the terminal",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/chamerling/openpaas-monitoring-cli.git",
+    "type": "git"
+  },
+  "author": "Christophe Hamerling <chamerling@linagora.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.7.5",
+    "moment": "^2.18.1",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-release": "^0.14.0"
+  },
+  "bin": {
+    "op-mon": "bin/op-mon"
+  }
+}
