@@ -1,6 +1,6 @@
 {
   "name": "openpaas-monitoring-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Draw some OpenPaaS Monitoring stuff in the terminal",
   "main": "index.js",
   "repository": {
